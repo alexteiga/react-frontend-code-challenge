@@ -18,7 +18,7 @@ class ProService {
   };
 
   getData(query) {
-    const myPromise = new Promise((resolve, reject) => {
+    const promise = new Promise((resolve, reject) => {
       let responseHeaders = {};
       fetch(config.url.SEARCH_PROS_API_URL, {
         method: "POST",
@@ -49,7 +49,7 @@ class ProService {
           reject(error);
         });
     });
-    return myPromise;
+    return promise;
   }
 }
 

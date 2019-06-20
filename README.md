@@ -9,14 +9,14 @@
 
 ### Requirements
 
-The coding challenge is to create a single-page app using React.js and some Plentific API.
+The coding challenge is to create a single-page app using React.js and some Demo API.
 The frontend React app is a Search professional page, the desired project output is the image below:
 
 ![wireframe](wireframe.jpg)
 
 
 - Listing the pros in a table including the columns shown in the wireframe.
-- Using Plentific API.
+- Using a Demo API.
 - Using pagination if the results are more than 20(each page  have a max of 20 results), if no records hide pagination.
 
 ### Focus points

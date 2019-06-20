@@ -77,7 +77,7 @@ class App extends React.Component {
             <Row>
               <Col>
                 <header className="App-header">
-                  <h1> Plentific - Front-End code challenge </h1>
+                  <h1> Front-End code challenge </h1>
                 </header>
               </Col>
               <hr />

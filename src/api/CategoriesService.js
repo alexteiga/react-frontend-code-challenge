@@ -2,7 +2,7 @@ import config from "./config";
 
 class CategoriesService {
   getData() {
-    const myPromise = new Promise((resolve, reject) => {
+    const promise = new Promise((resolve, reject) => {
       fetch(config.url.CATEGORIES_API_URL, { method: "GET" })
         .then(resp => resp.json())
         .then(data => {
@@ -16,7 +16,7 @@ class CategoriesService {
           reject(error);
         });
     });
-    return myPromise;
+    return promise;
   }
 }
 

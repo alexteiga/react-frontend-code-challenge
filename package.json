@@ -40,5 +40,5 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "jest-enzyme": "^7.0.2"
-  } 
+  }
 }
